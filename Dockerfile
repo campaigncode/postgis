@@ -1,5 +1,7 @@
 FROM postgres:15-bullseye
 
+ARG POSTGRES_PASSWORD="postgres"
+
 LABEL maintainer="PostGIS Project - https://postgis.net"
 
 ENV POSTGIS_MAJOR 3
