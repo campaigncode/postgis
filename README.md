@@ -1,1 +1,3 @@
-# postgis
+# PostGIS
+
+A postGIS database service
